@@ -1,13 +1,16 @@
 # What is Programming ?
 
 ## Complier
+
 ## Interpreter
 
 # Types of Programming Languages
+
 1. Low Level Language- Assembly Language, Machine Code
-2. High Level Language- 
+2. High Level Language-
 
 # What is Python ?
+
 Guido van Rossum in 1991
 
 ## Features of Python-
@@ -17,39 +20,120 @@ Guido van Rossum in 1991
 Print()
 
 # Comments
+
 1. Single Line Comment- #
-2. Multi Line Comment- """  """/'''  '''
+2. Multi Line Comment- """ """/''' '''
 
 # Variable
 
 first_name
 
 # Data Type-
+
 ## Number Types-
-1. int - 
-2. float - 
-3. complex - 
+
+1. int -
+2. float -
+3. complex -
 
 ## Sequence Types-
+
 1. String - s = "hello"
 2. List - l1 = [1,2,3,4,5]
 3. Tupple - t1 = (1,2,3,4,5,6)
 
 ## Mapping Types-
-1. Dictionary - 
-student = {
-	'name': "Smith",
-	'age': 20,
-	'marks': [50,60,70]
-}
+
+1. Dictionary -
+   student = {
+   'name': "Smith",
+   'age': 20,
+   'marks': [50,60,70]
+   }
 
 ## Boolean Type-
+
 1. Boolean - True/False
 
 ## Set Type-
+
 1. Set - s1 = {1,1,1,2,2,3,3,4,4,5,5,6,78}
 
 ## None Type-
+
 x = None
 
 type()
+
+##Operators  
+Operators are the symbols or keywords used to perform  
+Operations on variables and value or operands.
+eg : a+b, a-b, a/b, a*b
+here a and b are operands and '+,-,/,*' are the operators
+
+1. Arithmetic Operators:- used for mathematical operations with numeric values.
+   +:Addition
+   -:Subtraction
+   /:Division
+   \*:Multiplication
+   %:Modulus(Remainder)
+   \*\*:Power or exponent
+   //:Floor division(Round Value)
+
+2. Assignment Operators:- Used to assign value to variables.
+   = : Assigns value to variable
+   += : Adds and Assigns value to the left operand -= : Subtract and assign value to the left operand
+   \*= : Multiply and assign value to the left operand
+   /= : Divide and assign value to the left operand
+   //=: Flloor divide and assign value to the left operand
+   %= : Modulus and assign value to the left operand
+   \*\*=: Powers and assign value to the left operand
+
+3. Comparison Operator(Relational):- Used to Compare value and it returns only two values either true or false.
+   == (Equals to) -> returns True if both the operandds are same
+   != (Not Equals to) -> Returns True if both the operands are not same
+
+   > (Greater than) -> Returns True if left side operand is greater than right operand
+   > <(Less than) -> Returns True if right operand is greater than left operands
+   > =(Greater than equal to) :-> It returns true if left operand is greater or same as right operand
+   > <=(Less than equal to) -> It returns true if left opernad is less or same as right operand
+   > 4.Logical Operator: Used for logical AND, OR, NOT operation
+   > AND -> Returs true if both the operands are true, else false
+   > OR -> Returns true if any the operand are true , if both are false then returns false
+   > NOT -> Returns the Oppostive Value
+
+4. Membership Operator:- Used to check if a value or variable is found im a sequence or not.
+   in -> Returns True if value found in the sequence.
+   not in -> Returns true if value not found in the sequence
+
+5. Identity Operator: Checks Whether Two objects share the same memory location.
+   is -> Returns True if Operand refer to same object.
+   is not -> Returns True if operand refer to different object
+
+# Conditional Statements
+
+It is a statement that controls the flow of a program by executing certain code blocks only if specific condition are satisfied.
+With these statements we can make decisions in our codes that's why it is also known as decision making statements.
+##Types of Conditional Statements:
+1.If statements : If only executes the block if the condition is true
+Syntax: if condition:
+instructions
+if the condition is false nothing happens
+2.If-Else Statements: It executes if block only when the condition is true otherwise the else block will executes. When we
+have two sets of instructions but one condition and we want to execute only one block of code in that situation we can use if
+else statements.
+Syntax: if condition:
+instructions
+else:
+Instructions
+3.elif Statements : It is used to check multiple conditions in a sequence , the first condition that's true will get executed if
+none are true then else block will execute.
+It is used for several cases handling.
+Syntax: if condition:
+instructions
+elif condition:
+instructions
+elif condition:
+instructions
+else:
+Instructions
