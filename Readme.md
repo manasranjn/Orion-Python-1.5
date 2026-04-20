@@ -114,11 +114,13 @@ here a and b are operands and '+,-,/,*' are the operators
 
 It is a statement that controls the flow of a program by executing certain code blocks only if specific condition are satisfied.
 With these statements we can make decisions in our codes that's why it is also known as decision making statements.
+
 ##Types of Conditional Statements:
 1.If statements : If only executes the block if the condition is true
 Syntax: if condition:
 instructions
 if the condition is false nothing happens
+
 2.If-Else Statements: It executes if block only when the condition is true otherwise the else block will executes. When we
 have two sets of instructions but one condition and we want to execute only one block of code in that situation we can use if
 else statements.
@@ -126,6 +128,7 @@ Syntax: if condition:
 instructions
 else:
 Instructions
+
 3.elif Statements : It is used to check multiple conditions in a sequence , the first condition that's true will get executed if
 none are true then else block will execute.
 It is used for several cases handling.
@@ -137,3 +140,26 @@ elif condition:
 instructions
 else:
 Instructions
+
+# Loops- To repeat something
+## for loop-
+1)for i in range(statIndex, endIndex, Steps):
+	instruction
+	
+2)for i in sequence:
+	instruction
+
+## while loop-
+initialization
+while condition:
+	instruction
+
+# Nested Loop
+for i in range():
+	for j in range():
+		instruction
+
+## Loop Controls-
+break - It is used to stop the loop immediately
+continue - Is is used to skip current iteration value
+pass - It does nothing, used as a placeholder
