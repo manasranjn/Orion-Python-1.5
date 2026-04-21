@@ -142,24 +142,70 @@ else:
 Instructions
 
 # Loops- To repeat something
+
 ## for loop-
+
 1)for i in range(statIndex, endIndex, Steps):
-	instruction
-	
+instruction
 2)for i in sequence:
-	instruction
+instruction
 
 ## while loop-
+
 initialization
 while condition:
-	instruction
+instruction
 
 # Nested Loop
+
 for i in range():
-	for j in range():
-		instruction
+for j in range():
+instruction
 
 ## Loop Controls-
+
 break - It is used to stop the loop immediately
 continue - Is is used to skip current iteration value
 pass - It does nothing, used as a placeholder
+
+# Property of String and It's inbuilt methods
+
+- A string is a sequence of characters used to represent text.
+- Strings are enclosed in single quote, double quote or triple quote.
+
+## Properties:
+
+- Strings are index base collection where each and every character can be accessed by their individual index which starts from Zero.
+- Strings can’t be changed after creation because strings are immutable in nature. Any operations that modify a string returns a new string
+- String Supports Slicing -> s[1:6]
+- Strings are case Sensitive, where a and A are different characters.
+- Strings supports concatenation and repetition
+
+- Note: Use 'len' method to find length.
+  S[5:] - It returns a substring up to last characters.
+  s[:5] - It reruns a substring from starting index (0th index).
+  eg: s= "Hello"
+  print(s[-2]) //l
+
+## Inbuilt methods
+
+Lower():- It returns a string in a lower case. eg: print(s.lower())
+Upper():- It returns a string in upper case. eg: print(s.upper())
+Capitalize():- It returns a string with first letter capital. eg: print(s.capitalize())
+title() :- It Converts the first character of each word to uppercase. eg: print(s.title())
+Split() :- It splits a string into lists buy a specified separator. eg: print(s.split(" "))
+join() :- It joins elements of iterable with string. eg: print(" " .join(s))
+replace() :- It replace a substring with a new string. It accepts two arguments. Search Value and new Value. eg: print(s.replace('a','aa'))
+strip() :- It removes the starting and ending whitespaces. eg: print(s.strip())
+lstrip() :- It removes the starting whitespaces only. eg: print(s.lstrip())
+rstrip() :- It removes the ending whitespaces only. eg: print(s.rstrip())
+find() :- It returns the first occurrence index of a substring. eg: print(s.find('o'))
+rfind() :- It returns the last occurrence index of a substring . eg: print(s.rfind())
+index() :- It returns the index number of a substring if found, if not found then returns a ValueError. eg: print(s.index('o'))
+isalpha() :- It checks if all the characters are alphabetic , it returns the value in Boolean.eg: print(s.isalpha())
+isdigit() :- It checks all the characters are digits or not , it returns value in Boolean . eg: print(s.isdigit())
+isalnum() :- It checks if all characters are alpha numeric or not, it returns value in Boolean. eg: print(s.isalnum())
+isdecimal() :- It checks if the value is decimal or not, it returns value in Boolean. eg: print(s.isdecimal())
+count() :- It counts total occurrence of a substring. eg: print(s.count('l'))
+startswith() :- It checks if the string starts with a substring , it returns value in Boolean. eg: print(s.startswith('h'))
+endswith() :- It checks if the string end with a substring, it returns value in Boolean. eg: print(s.endswith())
