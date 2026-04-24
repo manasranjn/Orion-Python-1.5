@@ -264,3 +264,22 @@ Dictionary are denoted by {}
    dictionaryName.update({"key":value})
 9. clear() :- It removes all the items from a dictionary.
    dictionaryName.clear()
+
+# List Properties and it's inbuilt methods-
+1. append()
+2. extend()
+3. insert()
+4. remove()
+5. pop()
+6. clear()
+7. index()
+8. count()
+9. sort() 
+10. reverse()
+11. copy()
+
+## Built-in functions for List
+1. len()
+2. max()
+3. min()
+4. sum()

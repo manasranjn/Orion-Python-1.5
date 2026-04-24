@@ -26,7 +26,7 @@
 # s = input("Enter a string: ") #hello
 # rev = ""
 # for i in s: # h
-#     rev = i + rev # h
+#     rev = i + rev # h, e+h= eh, l+eh=leh, l+leh=lleh, o+lleh=olleh
 
 # print(rev)
 
