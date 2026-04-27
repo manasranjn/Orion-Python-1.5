@@ -283,3 +283,16 @@ Dictionary are denoted by {}
 2. max()
 3. min()
 4. sum()
+
+# Functions
+def functionName():
+	instruction
+
+# Lambda Function
+variableName = lambda a: a*2
+
+def factorial(n):
+	if n ==1:
+		return 1
+	return n * factorial(n-1) 
+	
