@@ -90,7 +90,7 @@
 # print(calendar.isleap(2026))
 
 # User-defined modules
-# import example
+import example
 
 # example.sum(10,20)
 # example.subtract(10,20)
@@ -98,5 +98,5 @@
 # print(example.x)
 
 # External modules
-import numpy as np
-print(np.pi)
+# import numpy as np
+# print(np.pi)

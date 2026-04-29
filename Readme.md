@@ -297,5 +297,45 @@ def factorial(n):
 	return n * factorial(n-1) 
 	
 # Module
-## Pre-Defined Modules
+## Built-in/Pre-Defined Modules
 ## User-Defined Modules
+## Third-Party Modules
+
+# Importing Modules
+1. basic syntax 
+- import modulename
+
+2. Import specific part/Function
+- from modulename import functionName, functionName
+
+3. Import all functions
+- from modulename import *
+
+4. Import with reference/alias
+- import modulename as variable
+
+
+# OOPs:-
+1. Class
+Syntax-
+class ClassName:
+	constructor():
+	
+	methods()
+	
+2. Object
+Syntax- 
+objectName = ClassName(arguments)
+
+3. Method
+
+4. Constructor
+Syntax-
+__init__(self, parametes):
+	instruction
+
+a) Default Constructor
+b) Parameterized Constructor
+c) Default Valued Constructor
+
+5. self keyword
