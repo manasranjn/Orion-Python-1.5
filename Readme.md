@@ -339,3 +339,16 @@ b) Parameterized Constructor
 c) Default Valued Constructor
 
 5. self keyword
+
+# Pillars of OOPs-
+1. Encapsulation
+2. Inheritance
+3. Abstraction
+4. Polymorphism
+
+## Inheritance
+1. Single Inheritance
+2. Multilevel Inheritance
+3. Muliple Inheritance
+4. Hierarchical Inheritance
+5. Hybrid Inheritance
